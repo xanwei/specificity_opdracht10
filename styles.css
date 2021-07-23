@@ -1,0 +1,102 @@
+body {
+    font-family: "Merriweather Sans";
+    margin-left: 2em;
+    margin-top: 2em;
+    max-width: 85%;
+}
+
+h2 {
+    font-weight: bold;
+    line-height: 10px;
+}
+
+.functie, hr {
+    color: darkgray;
+    line-height: 18px;
+}
+
+hr {
+    width: 120%;
+    text-align: center;
+    padding: 0;
+}
+
+p {
+    color: rgb(49, 47, 47);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 25px;
+    padding: 12px;
+}
+
+.grid-container>div {
+    border: 2px;
+    border-color: rgb(209, 206, 206);
+    border-radius: 5px;
+    border-style: ridge;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+    padding: top 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 10px;
+}
+
+section {
+    padding: 0 25px;
+}
+
+hr {
+    width: 100%;
+}
+
+button {
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    padding: 10px;
+    text-align: center;
+    width: 80%;
+    background-color: white;
+}
+
+button:first-child {
+    color: rgb(24, 197, 24);
+    border-color: rgb(24, 197, 24);
+    border-right: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+button:last-child {
+    color: firebrick;
+    border-color: firebrick;
+    border-style: solid;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+    margin-top: 4px;
+}
+
+.img {
+    object-fit: none;
+    object-position: top right;
+}
+figure {
+    margin-right: 1em;
+    margin-top: 1em;
+}
